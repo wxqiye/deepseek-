@@ -95,7 +95,7 @@ function sendMessage() {
     const endpoint = 'https://api.deepseek.com/chat/completions';
 
     const payload = {
-        model: "deepseek-reasoner",
+        model: "deepseek-chat",
         messages: [
             { role: "system", content: "You are a helpful assistant" },
             { role: "user", content: message }
